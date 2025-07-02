@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 :root{
     font-size: 62.5%;
 }
@@ -22,18 +26,23 @@ header{
     background: linear-gradient(90deg, rgba(45, 114, 225, 1) 0%, rgba(117, 157, 221, 1) 54%, rgba(18, 53, 109, 1) 100%);
 }
 
+header select{
+    margin: 0 auto;
+}
+
 main *{
     margin: 0;
 }
 
 main{
     background: #D3D1CD;
-    height: 100%;
+    height: calc(100% - 104px);
     display: flex;
+    justify-content: space-between;
 }
 
 footer{ 
-    height: 3.5rem;
+    height: 3.4rem;
     background: #93FF20;
 }
 
@@ -45,14 +54,19 @@ footer{
 .page-content-box p {
     font-size: 1.2rem;
     font-family: sans-serif;
-    max-width: 48rem;
+    max-width: 47rem;
     line-height: 1.75rem;
     display: inline-block;
     vertical-align: top;
 }
 
+.page-image-box{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
 .page-content-box img {
-    height: 27rem;
+    height: 28rem;
     width: 37rem;
 }
 
@@ -63,12 +77,12 @@ footer{
     display: block;
     height: 100%;
     background-color: white;
-    width: 4rem;
+    width: 6rem;
     align-self: center;
 }
 
-.feedback-form{
-    display: inline-block;
+.page-transfer-link:hover{
+    color: red;
 }
 
 .feedback-form *{
