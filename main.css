@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("sources/fonts/Inter_24pt-Medium.ttf") format("ttf");
+    font-weight: normal;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+header{
+    height: 7rem;
+    background: linear-gradient(90deg, rgba(45, 114, 225, 1) 0%, rgba(117, 157, 221, 1) 54%, rgba(18, 53, 109, 1) 100%);
+}
+
+.screen-wrapper{
+    background-color: white;
+    width: 1024px;
+    height: 100vh;
+    margin: 0 auto;
+}
