@@ -1,3 +1,7 @@
+header{
+    padding-top: 2rem;
+}
+
 .entrance-text{
     font-size: 2.4rem;
     font-family: "Inter", sans-serif;
@@ -8,6 +12,7 @@
 
 .screen-wrapper{
     background-image: url('sources/img/hub-bg.jpg');
+    background-size: cover;
 }
 
 .page-link{
@@ -20,6 +25,7 @@
 
 .page-link:first-child{
     background-image: url("sources/img/notebook-page-outlet.png");
+    background-size: cover;
 }
 
 .link-grid-wrapper{
@@ -27,4 +33,8 @@
     display: grid;
     grid-template-columns: 28rem 28rem 28rem;
     grid-template-rows: 16rem 16rem;
+}
+
+main{
+    padding: 8.5rem 3.5rem;
 }
