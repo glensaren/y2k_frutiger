@@ -73,5 +73,17 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.dialog-window{
+    height: 8rem;
+    width: 30rem;
+    margin: 0 auto;
+    margin-top: 15rem;
+    border: 1px solid black;
+}
+
+.dialog-window::backdrop{
+    background-color: rgb(43, 23, 23);
+    opacity: 0.95;
+}
 
 
