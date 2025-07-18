@@ -11,7 +11,7 @@ header{
 }
 
 .screen-wrapper{
-    background-image: url('sources/img/hub-bg.jpg');
+    background-image: url('../img/hub-bg.jpg');
     background-size: cover;
 }
 
@@ -21,11 +21,24 @@ header{
     width: 28rem;
     height: 16rem;
     border: solid .3rem black;
+    box-shadow: -0.5rem .5rem 1rem black;
 }
 
 .page-link:first-child{
-    background-image: url("sources/img/notebook-page-outlet.png");
+    background-image: url("../img/notebook-page-outlet.png");
     background-size: cover;
+}
+
+.page-link:nth-of-type(2){
+    background: white;
+    text-align: center;
+    text-decoration:line-through;
+    font-size: 2rem;
+    color: rgb(104, 104, 104);
+}
+
+.page-link:hover{
+    scale: 1.025;
 }
 
 .link-grid-wrapper{
