@@ -21,6 +21,15 @@ header{
     height: 7rem;
     background: linear-gradient(90deg, rgba(45, 114, 225, 1) 0%, rgba(117, 157, 221, 1) 54%, rgba(18, 53, 109, 1) 100%);
     border-bottom: solid .2rem black;
+    padding-top: 2rem;
+}
+
+.entrance-text{
+    font-size: 2.4rem;
+    font-family: "Inter", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
 
 .screen-wrapper{
