@@ -5,3 +5,8 @@
 h1 , span{
     margin: 0;
 }
+
+.screen-wrapper{
+    background-image: url('../img/ascent-800x600.jpg');
+    background-size: cover;
+}
