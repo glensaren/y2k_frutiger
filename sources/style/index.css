@@ -39,3 +39,29 @@
 main{
     padding: 8.5rem 3.5rem 0 3.5rem;    
 }
+
+@media (max-width: 391px) {
+    .screen-wrapper{
+        width: 39rem;
+    }
+
+    main{
+        padding: 5rem 6rem;
+    }
+
+    .link-grid-wrapper{
+        margin: 0 auto;
+        gap: 2rem;
+        grid-template-columns: 28rem;
+        grid-template-rows: repeat(6, 16rem);
+    }
+
+    .page-link{
+        box-shadow: 0 0;
+        border: .2rem solid black;
+    }
+
+    .screen-wrapper{
+        
+    }
+}

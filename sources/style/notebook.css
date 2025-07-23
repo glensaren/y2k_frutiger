@@ -39,6 +39,8 @@ footer{
     white-space: pre-wrap;
 }
 
+/* Что за говно нахуй снизу , какой image box и content box img одновременно. Ты ебанат? */
+
 .page-image-box{
     display: inline-block;
     margin-left: 2rem;
@@ -81,4 +83,40 @@ footer{
     white-space: pre-wrap;
 }
 
+/* .page-transfer-link{
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    display: block;
+    height: 100%;
+    background-color: white;
+    width: 6rem;
+    align-self: center;
+} */
+
+@media (max-width: 391px) {
+    main{
+        justify-content: start;
+    }
+
+    .page-image-box{
+        margin: 0;
+    }
+
+    .page-content-box{
+        padding: 0;
+    }
+
+    .page-content-box img{
+        width: 28rem;
+    }
+
+    footer{
+        width: 100%;
+    }
+    
+    .copyright-text{
+        margin: 0;
+    }
+}
 
