@@ -1,0 +1,17 @@
+h1{
+    font-size: 3rem;
+    font-family: "Inter" , serif;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+.screen-wrapper{
+    background-image: url(../img/moon.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    border-bottom: .2rem solid white;
+}

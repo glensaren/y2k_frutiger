@@ -52,10 +52,6 @@ footer{
     box-shadow: 9.5rem 1rem 1rem black;
 }
 
-.page-transfer-link:hover{
-    color: red;
-}
-
 .feedback-form *{
     display: block;
 }

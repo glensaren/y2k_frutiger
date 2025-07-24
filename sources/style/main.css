@@ -51,6 +51,10 @@ header{
     align-self: center;
 }
 
+.page-transfer-link:hover{
+    color: red;
+}
+
 @media (max-width: 391px) {
     .screen-wrapper{
         width: 38rem;

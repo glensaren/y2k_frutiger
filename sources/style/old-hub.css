@@ -9,4 +9,16 @@ h1 , span{
 .screen-wrapper{
     background-image: url('../img/ascent-800x600.jpg');
     background-size: cover;
+    position: relative;
+}
+
+.moon-pashalko-link{
+    display: block;
+    width: 20rem;
+    height: 22rem;
+    position: absolute;
+    left: 2rem;
+    top: 10rem;
+    border-radius: 50%;
+    cursor: default;
 }
