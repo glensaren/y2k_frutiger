@@ -57,12 +57,17 @@ header{
 
 @media (max-width: 391px) {
     .screen-wrapper{
-        width: 38rem;
+        width: 39rem;
         height: initial;
     }
 
     .page-transfer-link{
         width: 2rem;
         font-size: 1.5rem;
+    }
+
+    .page-image{
+        outline: 1px solid green;
+        box-shadow: none;
     }
 }
