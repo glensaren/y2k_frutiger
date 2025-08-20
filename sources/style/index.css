@@ -16,7 +16,7 @@
     background-size: cover;
 }
 
-.page-link:nth-of-type(2){
+.page-link:nth-of-type(2), .page-link:nth-of-type(3){
     background: white;
     text-align: center;
     text-decoration:line-through;
